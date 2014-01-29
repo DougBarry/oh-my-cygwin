@@ -6,7 +6,7 @@ chmod +x apt-cyg
 mv apt-cyg /bin/apt-cyg
 
 # install some stuff like vim and git
-apt-cyg --no-check-certificate -X install gnupg zsh mintty vim curl git openssh git-completion
+apt-cyg --no-check-certificate -X install zsh mintty vim curl git openssh git-completion
 
 #setting up vim
 cp /usr/share/vim/vim73/vimrc_example.vim ~/.vimrc
