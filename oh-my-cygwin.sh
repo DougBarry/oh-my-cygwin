@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # install apt-cyg
-wget --no-check-certificate https://github.com/john-peterson/apt-cyg/raw/path/apt-cyg
+wget --no-check-certificate https://raw.github.com/kou1okada/apt-cyg/master/apt-cyg
 chmod +x apt-cyg
 mv apt-cyg /bin/apt-cyg
 
