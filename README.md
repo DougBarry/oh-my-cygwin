@@ -1,4 +1,6 @@
-Changed apt-cyg source to a more recent (and multi-arch aware) version of the apt-cyg script. Now works as intended. Warning, this currently disables certificate checks on the mirrors it uses. USE AT OWN risk.
+Changed apt-cyg source to a more recent (and multi-arch aware) version of the apt-cyg script. Now works as intended.
+
+Warning, this currently attempts to disable certificate checks on the mirrors it uses, this doesn't always work and sometimes endlessly fills the terminal with a warning about the certificate from GnuPG. I have no idea why. USE AT OWN risk.
 
 --
 
