@@ -1,3 +1,7 @@
+Changed apt-cyg source to a more recent (and multi-arch aware) version of the apt-cyg script. Now works as intended.
+
+--
+
 # OH MY CYGWIN
 
 Looking for a real Terminal for Windows?
